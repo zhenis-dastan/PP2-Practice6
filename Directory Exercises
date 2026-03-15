@@ -1,0 +1,26 @@
+1
+import os
+
+os.makedirs("folder1/folder2")
+
+2
+import os
+
+print(os.listdir("."))
+
+3
+import os
+
+for file in os.listdir("."):
+    if file.endswith(".txt"):
+        print(file)
+
+4
+import shutil
+
+shutil.move("sample.txt", "folder1/sample.txt")
+
+5
+import shutil
+
+shutil.copy("folder1/sample.txt", "folder1/folder2/sample.txt")
