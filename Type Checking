@@ -1,0 +1,26 @@
+1
+x = 10
+print(type(x))
+
+2
+x = 10
+
+print(isinstance(x, int))
+
+3
+x = "25"
+
+num = int(x)
+print(num + 5)
+
+4
+num = 100
+
+text = str(num)
+print(text)
+
+5
+numbers = [1, 2, 2, 3]
+
+result = set(numbers)
+print(result)
